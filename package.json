@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_TLS_REJECT_UNAUTHORIZED=0 && node ./src/bin/www"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^2.1.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
