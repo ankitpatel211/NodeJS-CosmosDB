@@ -39,7 +39,7 @@ Steps to clone & run the application on local computer:
                URL: http://localhost:3000/deletetask/:Id
                
    Deploying application on AZURE:
-   1) There three ways to deploy application on AZURE 1) AZURE Portal 2) AZURE Bash CLI 3) AZURE DevOps
+      There three ways to deploy application on AZURE 1) AZURE Portal 2) AZURE Bash CLI 3) AZURE DevOps
        1) AZURE Bash CLI
           -> Well, create a new resource group and service plan through CLI commands.
           -> Create web api service
@@ -53,4 +53,7 @@ Steps to clone & run the application on local computer:
           also create a local git.
           -> Use the repository URL to build your branch from github.
           -> Click on release to release the build code to release Pipeline.
+          
+          
+     
           
